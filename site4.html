@@ -1,0 +1,38 @@
+<html>
+ <head>
+   <title>Codage d'une image </title>
+   <a href="Site.html"> <link rel="shortcut icon" type="image/x-icon" href="image2.jpg" />
+		<img src="image.jpg" height="150" width="150" style="position:absolute;top:0px;left:0px;border-color:#52514C"; border=5>
+	</a>
+   <meta charset="UTF-8">
+   <style type="text/css">
+		body {background-color: #1C2153; text-align:center;}		
+	</style>
+	<link href="Style.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+	<div id="div_horloge"></div>
+				<script type="text/javascript"> window.onload=function() {horloge('div_horloge');};function horloge(el) {if(typeof el=="string") { el = document.getElementById(el); }function actualiser() {var date = new Date();var str = date.getHours();str += ':'+(date.getMinutes()<10?'0':'')+date.getMinutes();el.innerHTML = str;}actualiser();setInterval(actualiser,1000);}</script>
+		<h1>CODAGE D'UNE IMAGE</h1>
+			<h2>Le codage</h2>
+				<h1><p> Le codage de l'image se fait en écrivant successivement les bits correspondant à chaque pixel, ligne par ligne, en commençant par le pixel en bas à gauche. ...</p></h1>
+				<h1><p> Avec un codage RVB (Rouge, Vert, Bleu) on peut attribuer 3 valeurs à chaque pixel : Rouge (de 0 à 255), Vert (de 0 à 255) et Bleu (de 0 à 255).</p></h1>
+		<h2>MENU</h2>
+			<br><a href="http://jaimelatechno.fr/index.php/post-conf/codage-image"><img src="image11.jpg" height="550" width="650" alt="image" class="centrer"> <img src="image12.jpg" height="550" width="650" alt="image" class="centrer"></a></br>
+				<button class="button button5"onclick=window.location.href="site2.html" >PIXEL ART</button>
+				<button class="button button5"onclick=window.location.href="site3.html" >PHOTOGRAPHIES EN VIGNETTE</button>
+				<button class="button button5"onclick=window.location.href="site5.html" >SITE A EXPLORER</button>
+				<button class="button button5"onclick=window.location.href="Site.html" >ACCUEIL</button>
+				<div id="main">
+				<section>
+				
+				</section>
+			<footer>
+				<p>Pour nous contacter</p>
+				<p><a target="_blank" href="https://www.instagram.com/sebastian._h20.photo/"class=pull-right><img src="image4.jpg" height="40" width="40" > <a target="_blank" href="sebastiangonzalezcofr@gmail.com" class=pull-right><img src="image6.jpg" height="40" width="40" ></p>
+				<p>Le contenu de ce site est protégé par la loi du copyright et appartient à SEB TECHNOLOGY WEBSITE.</p> 
+				<img src="image.jpg" height="100" width="100">
+			</footer>
+		</div>
+ </body>
+</html>

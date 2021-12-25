@@ -1,0 +1,43 @@
+<html>
+ <head>
+   <title>Page d'accueil </title>
+   <a href="Site.html"> <img src="image.jpg" height="150" width="150" style="position:absolute;top:0px;left:0px;border-color:#52514C"; border=5>
+		<link rel="shortcut icon" type="image/x-icon" href="image.jpg" />
+	</a>
+   <meta charset="UTF-8">
+   <style type="text/css">
+		body {background-color: #1C2153; text-align:center;}
+	</style>
+    <link href="Style.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+	<div id="div_horloge"></div>
+				<script type="text/javascript"> window.onload=function() {horloge('div_horloge');};function horloge(el) {if(typeof el=="string") { el = document.getElementById(el); }function actualiser() {var date = new Date();var str = date.getHours();str += ':'+(date.getMinutes()<10?'0':'')+date.getMinutes();el.innerHTML = str;}actualiser();setInterval(actualiser,1000);}</script>
+		<h1>Accueil</h1>
+			<h2>La Photographie Numérique </h2>
+				<h1><p> Le principe de base de la photographie numérique est la dissociation entre la capture et l'enregistrement de l'image.</p></h1>
+				<h1><p>Un capteur électronique saisit l'image, tandis que l'image est stockée sur un support amovible.</p></h1>
+		<h2>MENU</h2>
+		<br><a href="https://fr.wikipedia.org/wiki/Photographie_num%C3%A9rique#:~:text=La%20photographie%20num%C3%A9rique%20recouvre%20l,oppose%20%C3%A0%20la%20photographie%20argentique."><img src="image3.jpg" height="350" width="650"></a></br>
+			<h1><p>La naissance de la photographie remonte au XIXe siècle. Dans les appareils argentiques, la pellicule est le capteur, au format standardisé 24 × 36, contenant une solution avec des grains d’argent sensibles à la lumière. Le processus de traitement, la </p></h1>
+			<h1><p>révélation, est réalisé par le photographe dans son laboratoire. Avec l’évènement du numérique, la pellicule a été remplacée par des capteurs, non plus de taille standard, mais de tout format, s’adaptant à tous les types d’appareils numériques. Le rôle joué par</p></h1>
+			<h1><p>les grains d’argent est assuré par des composants électroniques, les photosites. La révélation n’est plus le travail du photographe mais des algorithmes</p></h1> <img src="image7.jpg" height="450" width="550"></a></br>
+			<h1><p>Pour obtenir une image visible, on doit constituer un pixel à partir des photosites monochromes. Un des algorithmes possibles consiste à créer un pixel à partir de 4 photosites : un bleu, un rouge et deux verts. Un pixel sera alors composé de 3 couleurs : rouge, vert, bleu (RVB). </p></h1>
+			<button class="button button5"onclick=window.location.href="site2.html" >PIXEL ART</button>
+			<button class="button button5"onclick=window.location.href="site3.html" >PHOTOGRAPHIES EN VIGNETTE</button>
+			<button class="button button5"onclick=window.location.href="site4.html" >CODAGE D'UNE IMAGE</button>
+			<button class="button button5"onclick=window.location.href="site5.html" >SITE A EXPLORER</button>
+			<div id="main">
+				<section>
+				
+				</section>
+			<footer>
+				<p>Pour nous contacter</p>
+				<p><a target="_blank" href="https://www.instagram.com/sebastian._h20.photo/"class=pull-right><img src="image4.jpg" height="40" width="40" > <a target="_blank" href="sebastiangonzalezcofr@gmail.com" class=pull-right><img src="image6.jpg" height="40" width="40" ></p>
+				<p>Le contenu de ce site est protégé par la loi du copyright et appartient à SEB TECHNOLOGY WEBSITE.</p> 
+				<img src="image.jpg" height="100" width="100">
+			</footer>
+		</div>
+ </body>
+</html>
+
